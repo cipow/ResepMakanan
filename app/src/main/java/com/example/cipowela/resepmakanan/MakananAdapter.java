@@ -16,11 +16,11 @@ import java.util.List;
 
 public class MakananAdapter extends RecyclerView.Adapter<MakananAdapter.MAView> {
     private Context context;
-    private List<Makanan> makanan;
+    private List<Makanan> makananList;
 
     public MakananAdapter(Context context, List<Makanan> makanan) {
         this.context = context;
-        this.makanan = makanan;
+        this.makananList = makanan;
     }
 
     @Override
@@ -32,7 +32,7 @@ public class MakananAdapter extends RecyclerView.Adapter<MakananAdapter.MAView> 
 
     @Override
     public void onBindViewHolder(MAView holder, int position) {
-        Makanan data = makanan.get(position);
+        Makanan data = makananList.get(position);
         holder.judul.setText(data.getJudul());
         holder.gambar.setImageDrawable(data.getGambar());
         holder.deskripsi.setText(data.getDeskripsi());
