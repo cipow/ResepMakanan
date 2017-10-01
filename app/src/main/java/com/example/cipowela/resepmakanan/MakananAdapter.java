@@ -1,6 +1,8 @@
 package com.example.cipowela.resepmakanan;
 
 import android.content.Context;
+import android.content.Intent;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -32,10 +34,20 @@ public class MakananAdapter extends RecyclerView.Adapter<MakananAdapter.MAView> 
 
     @Override
     public void onBindViewHolder(MAView holder, int position) {
-        Makanan data = makananList.get(position);
+        final Makanan data = makananList.get(position);
         holder.judul.setText(data.getJudul());
         holder.gambar.setImageResource(data.getGambar());
         holder.deskripsi.setText(data.getDeskripsi());
+        holder.cv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, DetailActivity.class);
+                intent.putExtra("resep.judul", data.getJudul());
+                intent.putExtra("resep.gambar", data.getGambar());
+                intent.putExtra("resep.deskripsi", data.getDeskripsi());
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override
@@ -43,20 +55,17 @@ public class MakananAdapter extends RecyclerView.Adapter<MakananAdapter.MAView> 
         return makananList.size();
     }
 
-    public class MAView extends RecyclerView.ViewHolder implements View.OnClickListener{
+    public class MAView extends RecyclerView.ViewHolder{
         public TextView judul, deskripsi;
         public ImageView gambar;
+        public CardView cv;
 
         public MAView(View itemView) {
             super(itemView);
             judul = (TextView) itemView.findViewById(R.id.judul);
             deskripsi = (TextView) itemView.findViewById(R.id.deskripsi);
             gambar = (ImageView) itemView.findViewById(R.id.gambar);
-
-        }
-
-        @Override
-        public void onClick(View view) {
+            cv = (CardView) itemView.findViewById(R.id.cv_main);
 
         }
     }
