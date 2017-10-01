@@ -34,13 +34,13 @@ public class MakananAdapter extends RecyclerView.Adapter<MakananAdapter.MAView> 
     public void onBindViewHolder(MAView holder, int position) {
         Makanan data = makananList.get(position);
         holder.judul.setText(data.getJudul());
-        holder.gambar.setImageDrawable(data.getGambar());
+        holder.gambar.setImageResource(data.getGambar());
         holder.deskripsi.setText(data.getDeskripsi());
     }
 
     @Override
     public int getItemCount() {
-        return makanan.size();
+        return makananList.size();
     }
 
     public class MAView extends RecyclerView.ViewHolder implements View.OnClickListener{
