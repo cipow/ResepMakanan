@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void isiData() {
-        Makanan makan = new Makanan("Horog – Horog", R.drawable.horogHorog
+        Makanan makan = new Makanan("Horog – Horog", R.drawable.horoghorog
                 , "Salah satu jajanan makanan kuliner tradisional khas dari daerah jepara adalah Horog-horog, mungkin yang sudah tahu pasti "
                 + "pernah berwisata di jepara dan mampir membeli jajanan ini tak lupa dengan kenikmatan makanan tradisional ini.\n"
                 + "Biasanya akan lebih mantab jika Horog-horog bertanding dengan bakso atau bisa kolaborasi dengan pecel dijamin rasanya tak kalah dari kuliner lain di indonesia."
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 + "- Selagi hangat parut kasar kue, sisihkan.\n- Sajikan dengan kelapa parut.");
         makananList.add(makan);
 
-        makan = new Makanan("Ikan Tongkol Bumbu Asam Manis", R.drawable.ikanTongkol
+        makan = new Makanan("Ikan Tongkol Bumbu Asam Manis", R.drawable.ikantongkol
                 , "Hidangan ikan tongkol bumbu asam manis memang seringkali menjadi menu hidangan utama yang menggoda."
                 + "\n\n" + "Bahan - bahan:\n\n"
                 + "- Ikan tongkol 350 gram.\n- Minyak sayur.\n- Air 100 ml.\n- Air panas 100 ml.\n- Asam jawa 22 gram.\n"
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 + "- Baru setelah itu, masukkan ikan tongkol yang sudah digoreng dan aduk-aduk hingga meresap kedalam ikan.");
         makananList.add(makan);
 
-        makan = new Makanan("Kepiting Soka Lada Hitam", R.drawable.kepitingSoka
+        makan = new Makanan("Kepiting Soka Lada Hitam", R.drawable.kepitingsoka
                 , "Kepiting dengan jenis soka adalah salahsatu yang cukup banyak diburu untuk kemudian diolah dan dikonsumsi. "
                 + "Kepiting soka diketahui merupakan jenis kepiting dengan cangkang yang lunak sehingga anda bisa mengkonsumsi semua bagiannya tanpa terkecuali juga bagian kulitnya. "
                 + "Bagian kulit kepiting yang seringkali disisihkan ternyata justru memiliki kandungan karotenoid serta chitosan yang cukup tinggi. Kandungan tersebut sangat baik efeknya untuk penyerapan dari lemak-lemak dan kolesterol. "
