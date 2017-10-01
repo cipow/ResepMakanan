@@ -2,12 +2,29 @@ package com.example.cipowela.resepmakanan;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
+    private List<Makanan> makananList = new ArrayList<>();
+    private RecyclerView RV;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        RV = (RecyclerView) findViewById(R.id.tampilan_rv);
+        RV.setLayoutManager(new LinearLayoutManager(this));
+        RV.setAdapter(new MakananAdapter(this, makananList));
+
+    }
+
+    private void isiData() {
+        Makanan makan = new Makanan("Bubur Ayam", R.drawable.A102262, "Murah enak bergizi");
+        makananList.add(makan);
     }
 }
