@@ -8,7 +8,7 @@ public class Makanan {
     private String judul, deskripsi;
     private int gambar;
 
-    public Makanan(String judul, String deskripsi, int gambar) {
+    public Makanan(String judul, int gambar, String deskripsi) {
         this.judul = judul;
         this.deskripsi = deskripsi;
         this.gambar = gambar;
