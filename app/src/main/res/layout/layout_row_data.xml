@@ -17,7 +17,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:padding="5dp"
-                android:src="@drawable/A102262" />
+                android:src="@drawable/a102262" />
 
             <TextView
                 android:id="@+id/judul"

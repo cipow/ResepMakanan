@@ -8,7 +8,7 @@
     tools:context="com.example.cipowela.resepmakanan.MainActivity">
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/tampilan-rv"
+        android:id="@+id/tampilanRV"
         android:layout_width="wrap_content"
         android:layout_height="match_parent">
 
