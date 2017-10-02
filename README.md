@@ -18,3 +18,5 @@
 * Pilih direktori folder yang didownlod tadi
 
 > Masih error? (saya juga bingung) coba googling
+
+# Preview
