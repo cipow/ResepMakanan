@@ -20,3 +20,4 @@
 > Masih error? (saya juga bingung) coba googling
 
 # Preview
+![alt text](preview/ss1.png)
