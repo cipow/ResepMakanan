@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical">
 
     <android.support.v7.widget.CardView
@@ -22,7 +23,8 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:padding="5dp"
-                android:src="@drawable/a102262" />
+                android:src="@drawable/a102262"
+                android:background="@drawable/border_image"/>
 
             <TextView
                 android:id="@+id/judul"
