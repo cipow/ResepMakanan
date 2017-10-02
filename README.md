@@ -21,3 +21,5 @@
 
 # Preview
 ![alt text](preview/ss1.png)
+![alt text](preview/ss2.png)
+![alt text](preview/ss3.png)
