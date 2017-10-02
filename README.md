@@ -10,3 +10,11 @@
 > Masih error?
 > udah install git?
 > Masih error? (saya juga bingung) coba googling.
+
+
+### Download
+
+* Pilih Open an Exiting Project
+* Pilih direktori folder yang didownlod tadi
+
+> Masih error? (saya juga bingung) coba googling
