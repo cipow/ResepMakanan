@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 , "Salah satu jajanan makanan kuliner tradisional khas dari daerah jepara adalah Horog-horog, mungkin yang sudah tahu pasti "
                 + "pernah berwisata di jepara dan mampir membeli jajanan ini tak lupa dengan kenikmatan makanan tradisional ini.\n"
                 + "Biasanya akan lebih mantab jika Horog-horog bertanding dengan bakso atau bisa kolaborasi dengan pecel dijamin rasanya tak kalah dari kuliner lain di indonesia."
-                + "\n\n" + "Bahan - bahan:\n\n"
+                , "Bahan - bahan:\n\n"
                 + "- Tepung beras 250 gram, kukus.\n- Air mendidih 150 ml.\n- Gula pasir 100 gram.\n"
                 + "- Pewarna makanan merah secukupnya.\n- Kelapa 1/4 butir, parut memanjang, kukus untuk taburan."
                 + "\n\n" + "Cara Membuat:\n\n"
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
         makan = new Makanan("Ikan Tongkol Bumbu Asam Manis", R.drawable.ikantongkol
                 , "Hidangan ikan tongkol bumbu asam manis memang seringkali menjadi menu hidangan utama yang menggoda."
-                + "\n\n" + "Bahan - bahan:\n\n"
+                , "Bahan - bahan:\n\n"
                 + "- Ikan tongkol 350 gram.\n- Minyak sayur.\n- Air 100 ml.\n- Air panas 100 ml.\n- Asam jawa 22 gram.\n"
                 + "- Bawang putih 2 siung.\n- Cabe merah keriting 8 buah.\n- Jahe 1 ruas jari telunjuk.\n- Daun jeruk purut 2 lembar.\n"
                 + "- Kecap manis 4 sdm.\n- Bawang merah 8 siung.\n- Saus sambal 1 sdm.\n- Gula pasir 1 sdm.\n- Gram 1/3 sdm.\n"
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 + "Kepiting soka diketahui merupakan jenis kepiting dengan cangkang yang lunak sehingga anda bisa mengkonsumsi semua bagiannya tanpa terkecuali juga bagian kulitnya. "
                 + "Bagian kulit kepiting yang seringkali disisihkan ternyata justru memiliki kandungan karotenoid serta chitosan yang cukup tinggi. Kandungan tersebut sangat baik efeknya untuk penyerapan dari lemak-lemak dan kolesterol. "
                 + "Dengan hampir semua bagian tubuhnya yang lunak dan bisa langsung diolah, maka tentunya juga tidak akan terlalu menyulitkan anda dalam proses pembersihannya."
-                + "\n\n" + "Bahan - bahan:\n\n"
+                , "Bahan - bahan:\n\n"
                 + "- 2 ekor kepiting kepiting soka, pilih yang masih segar dan berukuran cukup besar.\n"
                 + "- 6 siung bawang putih.\n- 2 buah bawang bombay.\n- 2 batang daun bawang prei.\n- 1 sendok teh lada hitam.\n- 2 sendok teh kecap manis.\n"
                 + "- 1 sendok makan saus tiram.\n- 2 sendok makan mentega.\n- Gula secukupnya.\n- 500 ml air"
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
         makan = new Makanan("Rondo Royal (Tape Goreng)", R.drawable.rondoroyal
                 , "Tape alias peyeum ( bahasa sunda nya) adalah makanan khas dari daerah Jawa Barat / Bandung."
-                + "\n\n" + "Bahan - bahan:\n\n"
+                , "Bahan - bahan:\n\n"
                 + "- 15 buah tape singkong.\n- 100 gram tepung terigu.\n- 1/2 gelas air.\n- 1 sdt perisa vanilla.\n- garam secukupnya.\n- minyak goreng."
                 + "\n\n" + "Cara Membuat:\n\n"
                 + "1. Siapkan Tape singkong/ Peyeum.\n\n"
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
 
         makan = new Makanan("Puding Jagung Susu", R.drawable.puding
                 , "Puding selain sebagai makanan penutup juga dapat menjadi kudapan yang sehat dan lezat."
-                + "\n\n" + "Bahan - bahan Puding Susu:\n\n"
+                , "Bahan - bahan Puding Susu:\n\n"
                 + "- 1 bungkus agar - agar bubuk putih.\n"
                 + "- 1 kaleng susu kental manis.\n"
                 + "- 800 ml air.\n"
@@ -107,6 +107,7 @@ public class MainActivity extends AppCompatActivity {
         makananList.add(makan);
 
         makan = new Makanan("Cakwe Empuk Renyah", R.drawable.cakwe
+                , "Makanan yang cocok untuk kumpul bersama"
                 , "\n\n" + "Bahan - bahan:\n\n"
                 + "1. Bahan utama yang digunakan adalah 250 gram tepung terigu kualitas baik.\n"
                 + "2. Baking soda kurang lebih sebanyak setengah sendok kecil atau setengah sendok teh.\n"
@@ -140,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
 
         makan = new Makanan("Empek Empek Palembang Asli", R.drawable.empek_empek_palembang
                 , "Salah satu makanan asli Kota Palembang yang cukup terkenal dari ujung timur sampai barat Indonesia adalah Empek Empek atau juga dikenal dengan Pempek."
-                + "\n\n" + "Bahan - bahan:\n\n"
+                , "Bahan - bahan:\n\n"
                 + "1. Bahan utama yang dibutuhkan adalah daging ikang tengiri yang sudah bebas dari duri kurang lebih 500 gram. Bisa juga menggunakan ikan gabus atau ikan belida apabila tidak ada ikan tengiri.\n"
                 + "2. Tepung Sagu sebanyak 250 gram. Gunakan tepung sagu yang mempunyai kualitas paling bagus supaya hasilnya enak.\n"
                 + "3. Telur ayam. Pilih ukuran sedang besar dan gunakan setengah butir telur saja.\n"
@@ -163,6 +164,7 @@ public class MainActivity extends AppCompatActivity {
         makananList.add(makan);
 
         makan = new Makanan("Lumpia Sosis", R.drawable.lumpia_sosis
+                , "Makanan yang cocok untuk kumpul bersama"
                 , "\n\n" + "Bahan - bahan Kulit Lumpia:\n\n"
                 + "- 8 butir telur.\n"
                 + "- 2 sendok makan tepung terigu.\n"

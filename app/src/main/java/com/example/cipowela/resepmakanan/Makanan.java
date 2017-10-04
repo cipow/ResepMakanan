@@ -5,13 +5,14 @@ package com.example.cipowela.resepmakanan;
  */
 
 public class Makanan {
-    private String judul, deskripsi;
+    private String judul, deskripsi, pembuatan;
     private int gambar;
 
-    public Makanan(String judul, int gambar, String deskripsi) {
+    public Makanan(String judul, int gambar, String deskripsi, String pembuatan) {
         this.judul = judul;
         this.deskripsi = deskripsi;
         this.gambar = gambar;
+        this.pembuatan = pembuatan;
     }
 
     public String getJudul() {
@@ -36,5 +37,13 @@ public class Makanan {
 
     public void setGambar(int gambar) {
         this.gambar = gambar;
+    }
+
+    public String getPembuatan() {
+        return pembuatan;
+    }
+
+    public void setPembuatan(String pembuatan) {
+        this.pembuatan = pembuatan;
     }
 }

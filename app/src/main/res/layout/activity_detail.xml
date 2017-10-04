@@ -23,19 +23,9 @@
                 android:layout_marginTop="10dp"
                 android:src="@drawable/ikantongkol" />
 
-            <TextView
-                android:id="@+id/judul_detail"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:padding="5dp"
-                android:text="Hello"
-                android:textAlignment="center"
-                android:textColor="@color/cardview_dark_background"
-                android:textSize="30dp" />
 
             <TextView
-                android:id="@+id/deskripsi_detail"
+                android:id="@+id/pembuatan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="5dp"

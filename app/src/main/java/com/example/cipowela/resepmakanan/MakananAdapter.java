@@ -44,7 +44,7 @@ public class MakananAdapter extends RecyclerView.Adapter<MakananAdapter.MAView> 
                 Intent intent = new Intent(context, DetailActivity.class);
                 intent.putExtra("resep.judul", data.getJudul());
                 intent.putExtra("resep.gambar", data.getGambar());
-                intent.putExtra("resep.deskripsi", data.getDeskripsi());
+                intent.putExtra("resep.pembuatan", data.getPembuatan());
                 context.startActivity(intent);
             }
         });

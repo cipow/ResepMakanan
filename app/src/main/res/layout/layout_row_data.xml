@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical">
 
     <android.support.v7.widget.CardView
         android:id="@+id/cv_main"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:clickable="true"
@@ -22,14 +22,14 @@
                 android:id="@+id/gambar"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
+                android:background="@drawable/border_image"
                 android:padding="5dp"
-                android:src="@drawable/a102262"
-                android:background="@drawable/border_image"/>
+                android:src="@drawable/a102262" />
 
             <TextView
                 android:id="@+id/judul"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:layout_toRightOf="@id/gambar"
                 android:padding="5dp"
                 android:text="Bubur Ayam"
@@ -41,11 +41,11 @@
                 android:id="@+id/deskripsi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/judul"
-                android:layout_toRightOf="@id/gambar"
+                android:layout_below="@id/gambar"
                 android:padding="5dp"
                 android:text="makan ringan enak dan bergizi"
-                android:textColor="@color/cardview_dark_background" />
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="10dp" />
 
         </RelativeLayout>
     </android.support.v7.widget.CardView>
